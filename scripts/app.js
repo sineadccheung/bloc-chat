@@ -1,21 +1,21 @@
 <!doctype html>
 
-<html ng-app = "myApp">
+<html > // move this to index.html
 
   <head>
     <script src="scripts/angular-ui-router.js"></script>
     <script>
-    var app = angular.module("myApp", [ui.router]);
     </script>
   </head>
 
   <body></body>
 </html>
 
+var app = angular.module("myApp", [ui.router]);
 
 
 
 
-$stateProvider.state('contacts', {
-  template: '<h1>My Contacts</h1>'
-})
+// $stateProvider.state('contacts', {
+//   template: '<h1>My Contacts</h1>'
+// })
